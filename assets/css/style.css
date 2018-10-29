@@ -7,7 +7,7 @@ body {
     text-align: justify; 
     background: rgb(185, 197, 166);*/
     background:ghostwhite;
-
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 .name{
@@ -15,31 +15,27 @@ body {
     font-weight: bolder;
     font-size: 40px;
     font-style: normal;
-    background: teal;
+    color: teal;
     text-align: left;
   /*  margin-left: 15px;*/
 }
   
-.container {
+.container-1 {
     margin-top: 40px;
-    padding:2px;
+    /*padding:2px;*/
     position: relative;
     height:40px;
-    width:72%;
+    width:73%;
     margin-left: 200px;
     font-weight:lighter;
     text-align: center;
-    background-color: ghostwhite;
     }
-
-
 
 .about{
     position: absolute;
     margin-left: 83%;
     width:4%;
     margin-top: 30px;
-    background-color: ghostwhite;
 }
 
 
@@ -48,24 +44,21 @@ body {
     margin-left: 88%;
     width: 4%;
     margin-top: 30px;
-    background: ghostwhite;
 }
 
 .contact{
     position: absolute;
     margin-left: 94%;
     width: 4%;
-    margin-top: 30px;
-    background-color: ghostwhite;
+    margin-top:30px;
 }
 
 .description{
-    margin-top: 2%;
     margin-left: 200px;
     margin-bottom: 3%;  
    /* height:600px;*/
     width:72%;
-    font-family: Arial, Helvetica, sans-serif;
+  /*  font-family: Arial, Helvetica, sans-serif;*/
 }
 
 .bkcolor{
@@ -86,9 +79,9 @@ img {
 
 footer{
     clear:both;
-   /* height: 70px;*/
+    /*height: 70px;*/
     width:100%;
-    background-color: rgb(105, 108, 114);
+    background-color: rgba(233, 232, 225, 0.582);
 }
 
   
