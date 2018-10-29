@@ -3,9 +3,11 @@
  **/
 
  * {
-    box-sizing: border-box;
-    text-align: justify;
-    background: rgb(185, 197, 166);
+  /*  box-sizing: border-box;*
+    text-align: justify; 
+    background: rgb(185, 197, 166);*/
+    background:wheat;
+
   }
   
 .name{
