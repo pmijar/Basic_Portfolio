@@ -7,7 +7,9 @@ body {
     text-align: justify; */
     background:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777
+    color: #777777;
+    display: flex;
+    flex-direction: column;
   }
   
 .name{
@@ -57,11 +59,13 @@ body {
 .description{
     margin-left: 264px;
     margin-bottom: 0%;  
+    margin: 0 auto;
    /* height:600px;
     width:72%;*/
     width:960px;
     color: black;
     background-color: #ffffff;
+    flex: 1;
 }
 
 .bkcolor{
@@ -80,8 +84,15 @@ body {
     margin-right: 10px;
 }
 
+.navhover a:hover {
+color:red;
+background-color: green;
+}
+
+
 footer{
     clear:both;
+    flex-shrink: 0;
     height: 70px;
     width:100%;
     margin-top: 0%;
