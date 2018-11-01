@@ -23,7 +23,7 @@ body {
 }
   
 .container-1 {
-    margin-top: 40px;
+    margin-top: 5px;
     /*padding:2px;*/
     position: relative;
     height:40px;
@@ -59,7 +59,7 @@ body {
 .description{
     margin-left: 264px;
     margin-bottom: 0%;  
-    margin: 0 auto;
+    margin: 10px auto;
    /* height:600px;
     width:72%;*/
     width:960px;
@@ -85,8 +85,8 @@ body {
 }
 
 .navhover a:hover {
-color:red;
-background-color: green;
+color: blue;
+background-color: grey;
 }
 
 
@@ -103,12 +103,13 @@ footer{
 }
 
 hr {
-    display: block;
-   /* height: 1px;
-   border: 0;*/
+    /*display: block;*/
+    height: 3px;
+    border: 0;
     border-top: 1px solid #cccccc;
- /*   margin: 1em 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
+
 }
 
   
