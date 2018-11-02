@@ -34,7 +34,7 @@ body {
     background-color: teal;
     color:white;
     text-align: left;
-  /*  margin-left: 15px;*/
+    padding: 0px;
 }
   
 h1{
@@ -100,7 +100,7 @@ background-color: grey;
 }
 
 footer{
-    position: fixed;
+    position: sticky;
     height: 70px;
     color: white;
     width:100%;
@@ -134,6 +134,7 @@ hr {
 .imgContainer1{
     float: left;
     position:relative; 
+    margin-left: 3%;
 }
 
 .imgContainer2{
@@ -144,6 +145,7 @@ hr {
 .imgContainer3{
     float: left;
     position:relative;
+    margin-left: 3%;
 }  
 
 .imgContainer4{
@@ -154,6 +156,7 @@ hr {
 .imgContainer5{
     float: left;
     position:relative;
+    margin-left: 3%;
 }  
 
 .centered {
