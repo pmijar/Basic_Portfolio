@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 13px;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png");
+
   }
  
 .container-1 {
@@ -67,15 +69,15 @@ h1{
 .description{
     margin-left: 264px;
     margin-bottom: 0%;  
-    margin: 5px auto;
+    margin: 10px auto;
     width:960px;
     color: black;
     background-color: #ffffff;
-    flex: 1;
+    height: auto;
+    overflow:auto;
 }
 
 .wrapper{
-    height: calc(100% - 70px);
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png");
 
 }
@@ -98,13 +100,14 @@ background-color: grey;
 }
 
 footer{
-    clear:both;
-    flex-shrink: 0;
+    position: fixed;
     height: 70px;
+    color: white;
     width:100%;
-    margin-top: 0%;
-    padding: 0%;
-    border: 0%;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    border: 0;
     text-align: center;
     background-color: #666666;
 }
@@ -123,30 +126,14 @@ hr {
 }
 
 .imgPortfolio{
-    width:200px;
-    height:160px;
-    padding: 5px; 
+    width:300px;
+    height:250px;
+    padding: 15px; 
 }
 
 .imgContainer1{
     float: left;
-    position:relative;
-}
-
-.centered {
-    position: absolute;
-    top: 70%;
-    bottom:15%;
-    left:2%;
-    right:2%;
-    width: 96%;
-    background-color: teal;
-    text-align: center;
-    font-size: 12px;
-  /*  font-weight: bold;
-    margin: 3px auto; */
-    color:white;
-  
+    position:relative; 
 }
 
 .imgContainer2{
@@ -155,7 +142,7 @@ hr {
 }
 
 .imgContainer3{
-    float:left;
+    float: left;
     position:relative;
 }  
 
@@ -169,4 +156,17 @@ hr {
     position:relative;
 }  
 
-
+.centered {
+    position: absolute;
+    top: 80%;
+    bottom:10%;
+    left:4.7%;
+    width: 90.5%;
+    background-color: teal;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  /*  margin: 3px auto; */
+    color:white;
+  
+}
